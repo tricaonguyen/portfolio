@@ -1,0 +1,146 @@
+/*CSS Reset*/
+body, html, h1, h2, h3, h4, h5, h6, p, figure, blockquote,
+img, div, header, footer, nav, ul, li, aside, article, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+/*Document styles*/
+aside, article, section, header, footer, nav {
+	display:block;
+}
+html {
+	background: rgb(234, 255, 220);
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	font-family: Cambria, Times, "Times New Roman", serif;
+}
+
+p {
+	letter-spacing: 1px;
+	margin-bottom: 2em;
+}
+
+.drop-cap p:first-of-type:first-letter {
+	float: left;
+	font-family: Georgia;
+	font-size: 4em;
+	margin: 0 5px 0;
+	line-height: .7;
+}
+
+header {
+	width: 100%;
+	height: 120px;
+	background: rgb(58, 48, 69);
+}
+
+hr {
+	border-style: inset;
+}
+
+header h1 {
+	color: rgb(195, 168, 96);
+	font-size: 50px;
+	font-weight:100;
+	text-shadow: 1px 1px 0 rgb(250, 245, 240);
+	text-align: center;
+}
+
+header nav ul li {
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(223, 193, 152);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(51, 215, 230);
+}
+
+#top-nav {
+	float: right;
+	background: rgb(58, 48, 69);
+	margin-right: 3px;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+#list-of-projects {
+	width: 600px;
+	margin: 1em auto;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight:100;
+	margin-bottom: 10px;
+}
+
+article ul li {
+	padding: 3px;
+	list-style: none;
+}
+
+article ul li:nth-child(odd) {
+	background: rgb(231, 232, 206);
+}
+
+article ul li a {
+	font-weight: 600;
+	color: rgb(195, 168, 96);
+}
+
+article ul {
+	margin-bottom: 1em;
+}
+/*add styles to aboutMe.html*/
+article.spacing {
+	margin: 1em;
+}
+
+p.space-below{
+	margin-bottom: 15px;
+}
+
+img.my-family {
+	border: 1px solid rgb(72, 153, 255);
+	float: left;
+	margin: 0 1em 1em 0;
+}
+/*end of styles for aboutMe.html*/
+footer {
+	width: 100%;
+	height: 30px;
+	background: rgb(58, 48, 69);
+}
+
+footer p {
+	padding: 5px;
+	color: rgb(223, 193, 152);
+	text-align: center;
+}
+
+footer p a {
+	text-decoration: underline;
+	color: white;
+}
+
+footer p a:hover {
+	color: rgb(51, 215, 230);
+}
